@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#layout{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin: 20px 0;
+    font-family: helvetica;
+    background-color: whitesmoke;
+}
+#welcome{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.wonder{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.wonder-img img{
+    width: 30vw;
+    height: 60vh;
+    padding-right: 25px;
+}
+hr{
+    text-align: center;
+    width: 10%;
+    background-color: goldenrod;
+    height: 3px;
+    border: none;
+    position: relative;
+    left: 200px;
+}
+.wonder-p{
+    font-size:medium;
+}
+.wonder-p h3{
+    text-align: center;
+    font-weight: 500;
+}
+.wonder-p p{
+    width: 32.66vw;
+    height: 20vh;
+}
+.bye{
+    border: 1px solid whitesmoke;
+    background-color: white;
+    align-items: center;
+    width: 50%;
+    height:max-content;
+    position: relative;
+    left: 300px;
+    padding-left: 60px;
+    box-shadow: rgb(122, 110, 110) 0 1px 4px;
+    
+}
+.bye-h1{
+    font-size: larger;
+}
+input[type='text']{
+    width: 85%;
+    height: 30px;
+}
+#message{
+    height: 120px;
+}
+.bye-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 90px 50px 0 ;
+}
+.bye-btn button{
+    background-color:dodgerblue;
+    color: white;
+    width: 25%;
+    padding: 3px;
+    border-radius: 5px;
+}
